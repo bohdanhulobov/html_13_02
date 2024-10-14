@@ -1,0 +1,25 @@
+.square {
+  fill: orange;
+  stroke: lightblue;
+  stroke-width: 5px;
+}
+.rectangle {
+  fill: yellow;
+  stroke: black;
+  stroke-width: 5px;
+}
+circle {
+  fill: green;
+  stroke: red;
+  stroke-width: 5px;
+  transition: all 1s;
+}
+circle:hover {
+  fill: darkblue;
+  stroke: pink;
+}
+.ellipse {
+  fill: aqua;
+  stroke: salmon;
+  stroke-width: 5px;
+}

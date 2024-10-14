@@ -1,0 +1,45 @@
+@square-fill: orange;
+@square-stroke: lightblue;
+
+@rectangle-fill: yellow;
+@rectangle-stroke: black;
+
+@circle-fill: green;
+@circle-stroke: red;
+@circle-hover-fill: darkblue;
+@circle-hover-stroke: pink;
+
+@ellipse-fill: aqua;
+@ellipse-stroke: salmon;
+
+@border-width: 5px;
+
+.square {
+  fill: @square-fill;
+  stroke: @square-stroke;
+  stroke-width: @border-width;
+}
+
+.rectangle {
+  fill: @rectangle-fill;
+  stroke: @rectangle-stroke;
+  stroke-width: @border-width;
+}
+
+circle {
+  fill: @circle-fill;
+  stroke: @circle-stroke;
+  stroke-width: @border-width;
+  transition: all 1s;
+
+  &:hover {
+    fill: @circle-hover-fill;
+    stroke: @circle-hover-stroke;
+  }
+}
+
+.ellipse {
+  fill: @ellipse-fill;
+  stroke: @ellipse-stroke;
+  stroke-width: @border-width;
+}
